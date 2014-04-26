@@ -1,4 +1,5 @@
 Portfolio::Application.routes.draw do
+  get "home/main"
   get "work/main"
   get "work/UxandUI"
   get "work/Industrial"
