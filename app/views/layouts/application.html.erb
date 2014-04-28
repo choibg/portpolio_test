@@ -15,9 +15,55 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  	<script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-33077929-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.lottanieminen.com/wordpress/xmlrpc.php?rsd" />
+</head>
+<body id="home">
+
+	<!--상단에 고정되는 Header입니다  -->
+	<div id="header">
+		<!-- Home, About, Work, Archive -->
+		<div id="topNav" class="sqs-announcement-bar-dropzone">
+  			<nav class="main-nav dropdown-hover desktop-nav">
+  				<ul>
+      				<li ><a href="/">Home</a></li>
+      				<li ><a href="/">About</a></li>
+      				<li ><a href="/">Work</a></li>
+   		    		<li ><a>Archive</a></li>
+
+ 				</ul>
+  			</nav>
+  		</div>
+
+  		<!--Logo, UX&UI Design, Industrial Design, Graphic Design --> 
+		<h1 id="title"><%=image_tag "http://placehold.it/200x120/cecece/ffffff", class: "attachment-large logo_img"%></h1>
+		<ul id="navigation" class="clearfix">
+			<li class="previous menu-item">
+				<h2><a rel="#about-news" href="/work/UxandUI">UX&UI Design<sup class="page-no"> &#8212; 1</sup></a></h2>
+			</li>
+			<li class="active menu-item">					
+				<h2><a rel="#graphic-design" href="/work/Industrial">Industrial Design<sup class="page-no"> &#8212; 2</sup></a></h2>
+			</li>
+			<li class="next menu-item">
+				<h2><a rel="#illustration" href="/work/Graphic">Graphic Design<sup class="page-no"> &#8212; 3</sup></a></h2>
+			</li>
+		</ul>
+	</div>	
+	<a class="back-to-top">^</a>
 <%= yield %>
 
 </body>
