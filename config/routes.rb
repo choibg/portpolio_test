@@ -1,10 +1,12 @@
 Portfolio::Application.routes.draw do
-  get "home/main"
+  get "junho/message"
+  root "home#main"
   get "about/main"
-  root "work#main"
+  get "work/main"
   get "work/UxandUI"
   get "work/Industrial"
   get "work/Graphic"
+  get "archive/main"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
