@@ -4,6 +4,15 @@ Portfolio::Application.routes.draw do
   get "about/main"
   get "work/main"
   get "work/UxandUI"
+
+  get "work/UxandUI_anywant"
+  get "work/UxandUI_codelion"
+  get "work/UxandUI_snucheck"
+  get "work/UxandUI_snuwomanski"
+  get "work/UxandUI_tntcrowd"
+  get "work/UxandUI_bgportfolio"
+  get "work/UxandUI_calendar"
+
   get "work/Industrial"
   get "work/Graphic"
   get "archive/main"

@@ -1,7 +1,8 @@
 // Place all the styles related to the work controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import url('http://www.lottanieminen.com/wordpress/wp-content/themes/lottanieminen/MyFontsWebfontsKit.css');
+//@import url('http://www.lottanieminen.com/wordpress/wp-content/themes/lottanieminen/MyFontsWebfontsKit.css');
+
 @import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url('http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
 /*
@@ -22,15 +23,15 @@ html[xmlns] .clearfix { display:block; }
 /* !Basics */
 html { width:100%; height:100%; position:relative; }
 body { width:100%; height:100%; position:relative; }
-body { color: #131313; font-family: Caslon540BT-Regular,'Nanum Myeongjo'; font-size:13px; 
+body { color: #131313; font-family:  Helvetica, sans-serif,'Nanum Gothic',sans-serif; font-size:13px; 
 
 }
 
 /* !Inline */
-h1 { font-family:FuturaBT-Heavy, 'Nanum Gothic'; font-size:12px; letter-spacing:1px; }
+h1 { font-family: Helvetica, sans-serif, 'Nanum Gothic'; font-size:12px; letter-spacing:1px; }
 h2, h2 * { font-style: normal !important; font-weight: normal; font-family: Caslon540BT-Regular, 'Nanum Gothic'; font-size:35px; transform: translate3d(0, 0, 0); -webkit-font-smoothing: antialiased; font-smoothing: antialiased;}
 h3 { font-family: Caslon540BT-Italic, 'Nanum Gothic'; font-size:13px;	 }
-h4, h4 * { font:normal normal 15px/1.8 'Nanum Gothic', sans-serif; font-weight: bold; font-size:12px; letter-spacing:1px; color:#131313 !important;font: normal bold 16px/1.8 'Nanum Myeongjo', serif;}
+h4, h4 * { font:normal normal 15px/1.8 'Nanum Gothic', sans-serif; font-weight: bold; font-size:12px; letter-spacing:1px; color:#131313 !important;font: normal bold 12px/1.8 'Nanum Gothic', sans-serif;}
 p {font:normal normal 13px/26px 'Nanum Gothic',sans-serif; margin-bottom: 16px; font:normal normal 13px/1.8 'Nanum Gothic', sans-serif;}
 i, cite, em, var, address, dfn { font-family:Caslon540BT-Italic 'Nanum Gothic'; font-style:normal;}
 
@@ -121,11 +122,12 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 /* top-nav*/ 
 #topNav {
 position: fixed;
-top: 20px;
+top: 30px;
 left: 0;
 width: 100%;
 -webkit-transition: padding-left .5s ease-out;
 background-color: rgba(246, 246, 246, 0);
+font-size:15px;
 
 }
 #topNav nav{
@@ -145,4 +147,63 @@ margin-left: 30px;
 
 /* brand logo */
 /*web font*/
+/* Home */ 
+#home_content{
+	position:relative; 
+	padding-top:50px; 
+	display:block; 
+	text-align:center;
+}
 
+/* About */ 
+#about_content{
+	position:relative; 
+	padding-top:300px; 
+	display:block; 
+	text-align:center;
+}
+/*work/uxandui*/
+#uxandui{
+	position:relative;
+	padding-top:200px;
+
+}
+
+/*work/industrial*/
+#industrial{
+	position:relative;
+	padding-top:200px;
+
+}
+.industrial_brand1{
+	display:block;
+	text-align:center;
+	margin:auto;
+}
+.industrial_work{
+	width:50%;
+	display:block;
+	text-align:center;
+	margin:auto;
+}
+/*work/graphic*/
+#graphic{
+	position:relative;
+	padding-top:200px;
+
+}
+
+/* Archive */ 
+#archive_content{
+	position:relative; 
+	padding-top:300px; 
+	display:block; 
+	text-align:center;
+}
+
+/* footer */ 
+#footer{
+	clear:both;
+	display:block; 
+	text-align:center;
+}
