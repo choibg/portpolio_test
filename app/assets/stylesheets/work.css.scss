@@ -75,7 +75,7 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 #disclaimer {position: fixed; left: 0px; right: 0px; top:0; background-color: #eaeaea; padding:50px; text-align: center;}
 
 /* !Specific Modules */
-#navigation .menu-item {display:inline-block; width: 33.3%; overflow: hidden; position: relative;}
+#navigation .menu-item {display:inline-table; width: 33.3%; overflow: hidden; position: relative;}
 #navigation .menu-item h2 {text-align: center; white-space: nowrap;}
 #navigation .active * { color:#131313 !important; }
 #navigation .page-no { font-size:12px; position: absolute; top: 2px;}
