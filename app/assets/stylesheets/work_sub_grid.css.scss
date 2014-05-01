@@ -3466,7 +3466,7 @@ html.blogapp .state-message {
   line-height: 40px;
 }
 .collection-type-gallery:not(.gallery-design-grid) .arrow.next-slide:before {
-  font-family: 'squarespace-ui-font';
+  font-family: 'Open Sans',sans-serif;
   font-style: normal;
   speak: none;
   font-weight: normal;
@@ -4555,7 +4555,7 @@ html.blogapp .state-message {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: 1em;
   font-weight: normal;
@@ -4579,7 +4579,7 @@ html.blogapp .state-message {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: 1em;
   font-weight: normal;
@@ -5469,7 +5469,7 @@ html.blogapp .state-message {
   margin: 6px 0 4px;
   border: 1px solid #ccc;
   background: #fafafa;
-  font-family: sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: normal;
   -webkit-box-sizing: border-box;
@@ -5496,7 +5496,7 @@ html.blogapp .state-message {
   bottom: 16px;
   left: 8px;
   color: #aaa;
-  font-family: sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 13px;
   line-height: 16px;
 }
@@ -5616,7 +5616,7 @@ html.blogapp .state-message {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: 1em;
   font-weight: normal;
@@ -5666,8 +5666,7 @@ html.blogapp .state-message {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-family: 'Open Sans',sans-serif;
   line-height: 1em;
   font-weight: normal;
   font-style: normal;
@@ -5722,7 +5721,7 @@ html.blogapp .state-message {
 }
 .sqs-form-lightbox-content .lightbox-inner .lightbox-content .form-wrapper {
   color: #222;
-  font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
 }
 .sqs-form-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title {
   font-size: 22px;
@@ -5858,7 +5857,7 @@ html.sqs-form-lightbox-open body {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: 1em;
   font-weight: normal;
@@ -7043,21 +7042,21 @@ html.sqs-form-lightbox-open body {
 /* Button Block Tweaks
 =================================================*/
 .small-button-block-font {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .medium-button-block-font {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .large-button-block-font {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7084,7 +7083,7 @@ html.sqs-form-lightbox-open body {
   color: #fff;
   background-color: #272727;
   border-width: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
   line-height: 1em;
   font-weight: normal;
@@ -7110,7 +7109,7 @@ html.sqs-form-lightbox-open body {
   background-color: #272727;
   border-color: #272727;
   font-size: 12px;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7122,7 +7121,7 @@ html.sqs-form-lightbox-open body {
   background-color: #272727;
   border-color: #272727;
   font-size: 15px;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7134,7 +7133,7 @@ html.sqs-form-lightbox-open body {
   background-color: #272727;
   border-color: #272727;
   font-size: 20px;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7750,7 +7749,7 @@ html.sqs-form-lightbox-open body {
 /* System Button Tweaks
 =================================================*/
 .system-button-font {
-  font-family: "proxima-nova", sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7804,7 +7803,7 @@ body:not(.button-style-default) .sqs-editable-button-color {
 }
 body:not(.button-style-default) .sqs-editable-button,
 body:not(.button-style-default) .sqs-editable-button-font {
-  font-family: "proxima-nova", sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7906,7 +7905,7 @@ body:not(.button-style-default).button-style-raised .newsletter-block .newslette
   box-shadow: 0 1px 0 0 #131313;
 }
 body:not(.button-style-default) .opentable-block #OT_Find_a_Table {
-  font-family: "proxima-nova", sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
@@ -7919,7 +7918,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   border-radius: 300px;
 }
 .announcement-bar-font {
-  font-family: 'proxima-nova', arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -7944,7 +7943,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
 .sqs-announcement-bar-text {
   padding: .8em 3em;
   line-height: 1.2em;
-  font-family: 'proxima-nova', arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -7954,7 +7953,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
 .sqs-announcement-bar-text p {
   color: #fff;
   margin: 0;
-  font-family: 'proxima-nova', arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -7980,7 +7979,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
 .sqs-announcement-bar-close:after {
   content: '×';
   display: block;
-  font-family: helvetica, arial, sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-size: 1em;
   font-weight: 100;
   line-height: 2.7em;
@@ -7999,7 +7998,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
 /* SUMMARY BLOCK STYLES
 ---------------------------------------------------*/
 .summary-heading-font {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 1px;
@@ -8022,7 +8021,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   background-repeat: repeat;
 }
 .site-title-font {
-  font-family: "Bree Serif", arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 72px;
@@ -8032,7 +8031,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   line-height: 1.2em;
 }
 .site-subtitle-font {
-  font-family: "Arizonia", Georgia, serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: normal;
   font-style: italic;
   line-height: 1.2em;
@@ -8052,7 +8051,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   letter-spacing: 1px;
 }
 .heading-1-font {
-  font-family: "Bree Serif", georgia, serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: bold;
   font-style: normal;
   line-height: 36px;
@@ -8062,7 +8061,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   letter-spacing: 0px;
 }
 .heading-2-font {
-  font-family: "Bree Serif", georgia, serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: bold;
   font-style: normal;
   line-height: 22px;
@@ -8072,7 +8071,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
   letter-spacing: 0px;
 }
 .heading-3-font {
-  font-family: "Bree Serif", georgia, serif;
+  font-family: 'Open Sans',sans-serif;
   font-weight: bold;
   font-style: normal;
   line-height: 22px;
@@ -8866,8 +8865,8 @@ footer:after,
 /* FONTS
 ***********************************************/
 h1.logo {
-  font-family: "Bree Serif", arial, sans-serif;
-  font-family: 'Bree Serif', arial, sans-serif;
+  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 72px;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -8884,8 +8883,8 @@ h1.logo a {
   letter-spacing: inherit;
 }
 .logo-subtitle {
-  font-family: "Arizonia", Georgia, serif;
-  font-family: 'Arizonia', Georgia, serif;
+  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 48px;
   line-height: 1.2em;
   text-transform: normal;
@@ -9029,9 +9028,9 @@ nav ol {
   font-style: normal;
 }*/
 .page-title h1 {
-  font-family: "Bree Serif", Georgia, serif;
+  font-family:'Open Sans',sans-serif;
   font-weight: bold;
-  font-family: "Bree Serif";
+  font-family:'Open Sans',sans-serif;
   font-size: 28px;
   line-height: 36px;
   text-transform: uppercase;
@@ -9072,7 +9071,7 @@ nav ol {
   font-size: 12.6px;
 }
 #topNav a {
-  font-family: Open Sans, arial, sans-serif;
+  font-family:'Open Sans',sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.6em;
@@ -9338,7 +9337,7 @@ nav ol {
   font-style: normal;
 }
 .page-title-font {
-  font-family: "Bree Serif";
+  font-family: 'Open Sans',sans-serif;
   font-size: 28px;
   line-height: 36px;
   text-transform: uppercase;
