@@ -18,7 +18,7 @@
   src: local('Nanum Gothic'), url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css') format('truetype');
   src: url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 }*/
-/*magazine_b*/
+/*magazine_b
 @font-face {
 	font-family: 'BentonSans';
 	src: url('fonts/BentonSans-Regular/BentonSans-Regular.eot');
@@ -76,7 +76,8 @@
 	font-weight: 300;
 	font-style: italic;
 }
-/*minimall */
+*/
+/*minimall 
 
 @font-face {
   font-family: 'Arizonia';
@@ -150,6 +151,7 @@
   font-weight: 800;
   src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxsBo4hlZyBvkZICS3KpNonM.woff) format('woff');
 }
+*/
 
 /*open sans */
 @font-face{ 
@@ -191,21 +193,21 @@
 	font-family: 'Open Sans';
 	font-style: normal;
   	font-weight: 700;
-	src: local('Open Sans Bold'), local('OpenSans-Bold')
-	src: url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot'),
-		 url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?iefix') format('eot'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg') format('svg');
+	src: local('Open Sans Bold'), local('OpenSans-Bold');
+	src: url('/fonts/Open_sans/opensans_bold_macroman/OpenSans-Bold-webfont.eot'),
+		 url('/fonts/Open_sans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?iefix') format('eot'),
+	     url('/fonts/Open_sans/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'),
+	     url('/fonts/Open_sans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'),
+	     url('/fonts/Open_sans/opensans_bold_macroman/OpenSans-Bold-webfont.svg') format('svg');
 }
 @font-face{ 
 	font-family: 'Open Sans';
 	font-style: normal;
   	font-weight: 800;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold');
-	src: url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot'),
-		 url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?iefix') format('eot'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
-	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg') format('svg');
+	src: local('Open Sans Extrabold'), local('OpenSans-Extrabold');
+	src: url('/fonts/Open_sans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.eot'),
+		 url('/fonts/Open_sans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.eot?iefix') format('eot'),
+	     url('/fonts/Open_sans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff') format('woff'),
+	     url('/fonts/Open_sans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+	     url('/fonts/Open_sans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.svg') format('svg');
 }
