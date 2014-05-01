@@ -187,3 +187,25 @@
 	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
 	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg') format('svg');
 }
+@font-face{ 
+	font-family: 'Open Sans';
+	font-style: normal;
+  	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold')
+	src: url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot'),
+		 url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?iefix') format('eot'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg') format('svg');
+}
+@font-face{ 
+	font-family: 'Open Sans';
+	font-style: normal;
+  	font-weight: 800;
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold');
+	src: url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot'),
+		 url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?iefix') format('eot'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+	     url('/fonts/Open_sans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg') format('svg');
+}
