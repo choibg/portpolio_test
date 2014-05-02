@@ -35,8 +35,10 @@
 <html id="modern-browsers" lang="en-US">
 <!--<![endif]-->
 
-
-
+<!--[if lte IE 9]>
+<script src="/assets/html5shiv.js"></script>
+<script src="/assets/modernizr.custom.58495.js"></script>
+<![endif]-->
 <%= yield %>
 <%= render "layouts/footer" %>
 
