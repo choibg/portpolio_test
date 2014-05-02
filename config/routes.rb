@@ -13,6 +13,24 @@ Portfolio::Application.routes.draw do
   get "work/UxandUI_bgportfolio"
   get "work/UxandUI_calendar"
 
+  get "work/Industrial_officestore"
+  get "work/Industrial_comunication"
+  get "work/Industrial_itawon"
+  get "work/Industrial_twoartists"
+  get "work/Industrial_bridge"
+  get "work/Industrial_tissue"
+  get "work/Industrial_box"
+  get "work/Industrial_bucket"
+  get "work/Industrial_star"
+  get "work/Industrial_lightbox"
+
+  get "work/Graphic_dot"
+  get "work/Graphic_gwanak"
+  get "work/Graphic_likelion"
+  get "work/Graphic_anywant"
+  get "work/Graphic_snucheck"
+
+
   get "work/Industrial"
   get "work/Graphic"
   get "archive/main"
