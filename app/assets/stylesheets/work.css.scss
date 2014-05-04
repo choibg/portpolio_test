@@ -30,7 +30,7 @@ body { color: #131313; font-family:  'Open Sans', sans-serif,'Nanum Gothic',sans
 
 /* !Inline */
 h1 { font-family: 'Open Sans', sans-serif; font-size:12px; letter-spacing:1px; }
-h2, h2 * { font-style: normal !important; font-weight: normal; font-family: 'Open Sans', sans-serif; font-size:32px; font-weight: 700;transform: translate3d(0, 0, 0); -webkit-font-smoothing: antialiased; font-smoothing: antialiased;}
+h2, h2 * { font-style: italic !important; font-weight: normal; font-family: 'Open Sans', sans-serif; font-size:32px; font-weight: 700;transform: translate3d(0, 0, 0); -webkit-font-smoothing: antialiased; font-smoothing: antialiased;}
 h3 { font:normal normal 18px/2 'Open Sans',sans-serif; margin-bottom: 16px; text-align: left;}
 h4, h4 * { font:normal normal 18px/1.8 'Open Sans',sans-serif; font-weight: bold; font-size:12px; letter-spacing:1px; color:#ccc !important;font: normal bold 12px/1.8 'Nanum Gothic', sans-serif;}
 p {font:normal normal 15px/2 'Open Sans',sans-serif; margin-bottom: 16px; text-align: left;}
@@ -114,7 +114,7 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	#header { top: 30px; position: fixed;}
 	#title {margin-top:15px;margin-bottom:3px;}
 	#navigation {text-align: center !important; }
-	#navigation li h2{font-size:20px; }
+	#navigation li h2{font-size:18px; margin-bottom:5h2px;  }
 	#navigation .menu-item {float: left !important; width: 100% !important;}
 	.column { width: 92%; margin-left: 4%; margin-right: 4%; }
 	.column2{width: 92%; margin-left: 4%; margin-right: 4%;}
