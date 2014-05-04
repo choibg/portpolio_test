@@ -294,3 +294,19 @@ a.calendar{
 a.calendar:hover{
 	background-image: image-url('/assets/uxandui/work/calendar.png');	
 }
+
+a.anywant{
+	@extend .alink;
+	background-image: image-url('/assets/uxandui/work/anywant.png');	
+}
+a.anywant:hover{
+	background-image: image-url('/assets/uxandui/work/anywant.png');	
+}
+
+a.bgportfolio{
+	@extend .alink;
+	background-image: image-url('/assets/uxandui/work/snucheck2.png');	
+}
+a.bgporfolio:hover{
+	background-image: image-url('/assets/uxandui/work/snucheck2.png');	
+}
