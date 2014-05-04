@@ -1,4 +1,7 @@
 Portfolio::Application.routes.draw do
+  get "test/grid1"
+  get "test/gird2"
+  get "test/grid3"
   get "junho/message"
   root "home#main"
   get "about/main"

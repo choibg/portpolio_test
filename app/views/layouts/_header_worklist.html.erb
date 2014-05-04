@@ -1,26 +1,62 @@
-	<div id="header">
+<div id="#header">
+<div id="mobileNav" class="menu-open"><div class="wrapper">
+    <div id="topNav">
+		<nav class="main-nav mobile-nav">
+			<ul>
+          	<li class="blog-collection active-link">
+              <a href="/">HOME</a>
+          	</li>
+          	<li class="page-collection">
+              <a href="/archive/">ABOUT</a>
+          	</li>
+          	<li class=" folder external-link">   
+              <a href="/?category=reviews">WORK</a>
+           	</li>
+          	<li class=" folder external-link">
+              <a href="/?category=sketches">ARCHIVE</a>
+           	</li>
+
+			</ul>
+</nav>
+</div>
+  </div></div>
+</div>
+	<div id="header"style="background-color:white;-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
+box-shadow: rgba(0,0,0,0.2) 0 1px 3px;">
 		<!-- Home, About, Work, Archive -->
-		<div id="topNav" class="sqs-announcement-bar-dropzone">
+
+		<div id="topNav" class="sqs-announcement-bar-dropzone"style="background-color:white;">
+			
   			<nav class="main-nav dropdown-hover desktop-nav">
   				<ul>
       				<li style="color:#666"><a href="/">Home</a></li>
       				<li ><a href="/about/main">About</a></li>
+      				<li> <%=image_tag "/assets/favvvv.png", class: "logo_test attachment-medium wp-post-image"%></li>
       				<li ><a href="/work/main">Work</a></li>
    		    		<li ><a href="/archive/main">Archive</a></li>
+   		    		<li id="mobileMenuLink"><a id="yui_3_10_1_1_1399180689737_453">Menu</a></li>
+   		    		
  				</ul>
   			</nav>
+
+
   		</div>
   		<!--Logo, UX&UI Design, Industrial Design, Graphic Design --> 
-		<h1 id="title"> <%=image_tag "/assets/logo17.png", class: "attachment-medium wp-post-image"%></h1>
-		<ul id="navigation" class="clearfix">
+		
+		<ul id="navigation" class="clearfix" >
 			<li class="previous menu-item">
 				<h2><a rel="#about-news" href="/work/UxandUI">UX&UI Design</a></h2>
+				<!--<h3 class="subtitle">App and Web</h3>-->
+				<p class>
 			</li>
 			<li class="active menu-item">					
 				<h2><a rel="#graphic-design" href="/work/Industrial">Industrial Design</a></h2>
+				<!--<h3 class="subtitle">Space and Product</h3>-->
 			</li>
 			<li class="next menu-item">
 				<h2><a rel="#illustration" href="/work/Graphic">Graphic Design</a></h2>
+				<!--<h3 class="subtitle">Poster and Drawing</h3>-->
 			</li>
 		</ul>
 	</div>

@@ -8146,7 +8146,7 @@ body {
   color: #fff;
 }
 #header #topNav a {
-  color: #cfcfcf;
+  color: #666;
 }
 #header #topNav .active-link a {
   color: #cfcfcf;
@@ -8172,11 +8172,12 @@ h3 {
 }
 a,
 a:visited {
-  color: #b9aea7;
+ 
 }
 a:hover {
   color: #444;
 }
+/*
 footer,
 footer h1,
 footer h2,
@@ -8189,7 +8190,7 @@ footer a:visited {
 }
 footer a:hover {
   color: #444;
-}
+}*/
 /* LAYOUT (WIDTHS & PADDING)
 ************************************************/
 #bannerImage {
@@ -8283,16 +8284,19 @@ footer a:hover {
   top: 40px;
   right: 22px;
 }
+/*
 #footer {
   padding: 15px 27px;
   overflow-x: hidden;
 }
+*/
 #footerBlock {
   min-height: 34px;
 }
+/*
 #footer {
   font-size: .95em;
-}
+}*/
 .site-title .logo {
   margin: 0;
 }
@@ -9072,13 +9076,13 @@ nav ol {
 }
 #topNav a {
   font-family:'Open Sans',sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.6em;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  font-weight: 400;
+  color:#666;
   font-style: normal;
 }
 /* SUMMARY BLOCK
@@ -9111,7 +9115,7 @@ nav ol {
 .sqs-block-summary-v2 a,
 .sqs-block-summary-v2 a:link,
 .sqs-block-summary-v2 a:visited {
-  color: #b9aea7;
+  
 }
 .sqs-block-summary-v2 a:hover,
 .sqs-block-summary-v2 a:link:hover,
@@ -9169,10 +9173,11 @@ nav ol {
     width: 50% !important;
     margin: 0 0 10px 0 !important;
   }
+  /*
   #wrapper,
   #footer {
     padding: 3em 2em !important;
-  }
+  }*/
   #page {
     margin: 0 !important;
   }

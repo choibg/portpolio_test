@@ -140,10 +140,10 @@ $.each($("#news .post"), function (index){
 		$('.back-to-top').fadeOut();
 		
 		//animate next to active
-		$('#content .next').animate({'left' : '5%', 'margin-right' : '6%', 'margin-left' : '6%', 'backgroundColor' : '#FFFFFF' }, duration, easing, function(){$(this).addClass('active').removeClass('next');}).find('.page-number').fadeIn().find('.back-to-top').fadeIn();
+		$('#content .next').animate({'left' : '5%', 'margin-right' : '6%', 'margin-left' : '6%', 'backgroundColor' : 'rgb(239, 240, 241)' }, duration, easing, function(){$(this).addClass('active').removeClass('next');}).find('.page-number').fadeIn().find('.back-to-top').fadeIn();
 		
 		//animate active to previous
-		$('#content .active').animate({'left' : '-73%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1' }, duration, easing, function(){$(this).addClass('previous').removeClass('active');}).find('.page-number').fadeOut().find('.back-to-top').fadeOut();;
+		$('#content .active').animate({'left' : '-73%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : 'rgb(239, 240, 241)' }, duration, easing, function(){$(this).addClass('previous').removeClass('active');}).find('.page-number').fadeOut().find('.back-to-top').fadeOut();;
 		
 		//animate previous to next
 		$('#content .previous').css({ 'left' : '-73%'}).animate({'left' : '-151%'}, duration, easing, function(){$(this).remove();})
@@ -170,10 +170,10 @@ $.each($("#news .post"), function (index){
 		$('.back-to-top').fadeOut();
 		
 		//animate next to active
-		$('#content .previous').css({ 'left' : '-73%'}).animate({'left' : '5%', 'margin-right' : '6%', 'margin-left' : '6%', 'backgroundColor' : '#FFFFFF' }, duration, easing, function(){$(this).addClass('active').removeClass('previous');}).find('.page-number').fadeIn(duration,'easeInOutCubic').find('.back-to-top').fadeIn();
+		$('#content .previous').css({ 'left' : '-73%'}).animate({'left' : '5%', 'margin-right' : '6%', 'margin-left' : '6%', 'backgroundColor' : 'rgb(239, 240, 241)' }, duration, easing, function(){$(this).addClass('active').removeClass('previous');}).find('.page-number').fadeIn(duration,'easeInOutCubic').find('.back-to-top').fadeIn();
 		
 		//animate active to previous
-		$('#content .active').animate({'left' : '95%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1' }, duration, easing, function(){$(this).addClass('next').removeClass('active');}).find('.page-number').fadeOut().find('.back-to-top').fadeOut();
+		$('#content .active').animate({'left' : '95%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : 'rgb(239, 240, 241)' }, duration, easing, function(){$(this).addClass('next').removeClass('active');}).find('.page-number').fadeOut().find('.back-to-top').fadeOut();
 		
 		//animate previous to active
 		$('#content .next').animate({'left' : '173%'}, duration, easing, function(){$(this).remove();})
