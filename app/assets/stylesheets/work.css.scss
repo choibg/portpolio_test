@@ -111,11 +111,11 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 
 
 @media screen and (max-width: 900px) {
-	#header { top: 60px; position: absolute;}
-	#title {margin-bottom: 10px;}
+	#header { top: 30px; position: fixed;}
+	#title {margin-top:15px;margin-bottom:3px;}
 	#navigation {text-align: center !important; }
-	#navigation {}
-	#navigation .menu-item {float: none !important; width: 100% !important;}
+	#navigation li h2{font-size:20px; }
+	#navigation .menu-item {float: left !important; width: 100% !important;}
 	.column { width: 92%; margin-left: 4%; margin-right: 4%; }
 	.column2{width: 92%; margin-left: 4%; margin-right: 4%;}
 	.work-title {margin-top: 15px; margin-bottom: 30px; }
@@ -124,11 +124,14 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	.image img {width: 100%; height: auto;}
 	.thin-column { width: 92%; margin-left: 4%; margin-right: 4%; float: none;}
 	.work-title { margin-top:0px; };
+	#content .page { padding-top:337px;}
+
 }
 /*.column { width: 42%; margin-left: 4%; margin-right: 4%; }*/
 @media screen and (max-width: 400px) {
 	#news, #about { width: 100% !important; clear: left; }
 	#modern-browsers .column { width: 90%; float: none;	margin-left: 5%; margin-right: 5%; }
+	#navigation .menu-item {float: left !important; width: 100% !important;}
 }
 
 
