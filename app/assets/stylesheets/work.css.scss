@@ -111,7 +111,8 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 
 
 @media screen and (max-width: 900px) {
-	#header { top: 30px; position: fixed;}
+	#header { top: 0px; position: absolute;}
+
 	#title {margin-top:15px;margin-bottom:3px;}
 	#navigation {text-align: center !important; }
 	#navigation li h2{font-size:18px; margin-bottom:5h2px;  }
@@ -132,13 +133,14 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	#news, #about { width: 100% !important; clear: left; }
 	#modern-browsers .column { width: 90%; float: none;	margin-left: 5%; margin-right: 5%; }
 	#navigation .menu-item {float: left !important; width: 100% !important;}
+	
 }
 
 
 
 /* top-nav*/ 
 #topNav {
-position: absolute;
+position: fixed;
 top: 0px;
 padding-top:12px;
 padding-bottom:12px;
