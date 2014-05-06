@@ -7,7 +7,7 @@
 	zoom: 1; 
 	position: relative; 
 	max-width:1967px;
-	margin:0px auto 79px;
+	margin:0px auto 90px;
 	
 	
 	text-align:left; /* reset align=center */
@@ -229,7 +229,7 @@
 	visibility:visible;
 }
 #wowslider-container1  .ws_thumbs { 
-    bottom: -7.25%;
+    bottom: -15%;
     left: 0;
 	width:100%;
 	max-height:$thumbFullHeight$px;
@@ -237,7 +237,7 @@
 #wowslider-container1  .ws_thumbs div{
 	position:relative;
 	letter-spacing:-4px;
-	width:46.40%;
+	width:80%;
 }#wowslider-container1 .ws_thumbs a.ws_selthumb{
 	
 }
