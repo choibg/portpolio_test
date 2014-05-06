@@ -1,90 +1,253 @@
 <head>
-	<link rel="stylesheet" type="text/css" href="/assets/style.css" />
-	
-
+<!--codelion.css--> 
+<link rel="stylesheet" type="text/css" href="/assets/codelion_css/style.css" />
+<!--snucheck.css-->
+<link rel="stylesheet" type="text/css" href="/assets/snucheck_css/style.css" />
+<!--snucheck_app.css-->
+<link rel="stylesheet" type="text/css" href="/assets/snucheck_app_css/style.css" />
+<!--calendar.css--> 
+<link rel="stylesheet" type="text/css" href="/assets/calendar_css/style.css" />
+<!--tntcrowd.css--> 
+<link rel="stylesheet" type="text/css" href="/assets/tntcrowd_css/style.css" />
+<!--snuwomanski.css--> 
+<link rel="stylesheet" type="text/css" href="/assets/snuwomanski_css/style.css" />
+<!--anywant.css--> 
+<link rel="stylesheet" type="text/css" href="/assets/anywant_css/style.css" />
 </head>
 
-<!--<script>
-var lastScrollTop = 0;
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > lastScrollTop){
-      $('#navigation').hide(500);
-   } else {
-      $('#navigation').show();
-   }
-   lastScrollTop = st;
-});
-</script>-->
-
-		<!--[if lte IE 7]><div id="disclaimer">This site is not yet compatible with older browsers.</div><![endif]-->
-		<!--<script type="text/javascript">$('body').hide();</script>-->
-	<!--상단에 고정되는 Header입니다  -->
-	<%= render :partial => "layouts/header_worklist" %>	
-	<a class="back-to-top">^</a>
+<!--상단에 고정되는 Header입니다  -->
+<%= render :partial => "layouts/header_worklist" %>	
+<a class="back-to-top">^</a>
 	<div id="content" class="clearfix">
 		<div id="graphic-design" class="page clearfix previous" >
+				<!--codelion-->
 				<div class="work"style="width: 100%; float: none; margin: 0px;"a>
-					<h4 class="work-title"><a style="color:#666;font-size:15px;"class="ajax"href="http://codelion.net" >codelion.net</a></h4>
-					<a class="ajax thumbnail codelion" href="/work/UxandUI_codelion"></a>
+				<!--codelion_body-->
+					<h2 class="work-title"><a style="color:#666;font-size:15px;"class="ajax"href="http://codelion.net" >codelion.net</a></h2>
+					<div id="wowslider-container1">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/codelion_img/images/codelion.png"alt="codelion"title="codelion"id="wows1_0"/></li>
+								<li><img src="/assets/codelion_img/images/codelion2.png"alt="codelion2"title="codelion2"id="wows1_1"/></li>
+								<li><img src="/assets/codelion_img/images/codelion3.png"alt="codelion3"title="codelion3"id="wows1_2"/></li>
+								<li><img src="/assets/codelion_img/images/codelion4.png"alt="codelion4"title="codelion4"id="wows1_3"/></li>
+								<li><img src="/assets/codelion_img/images/codelion5.png"alt="codelion5"title="codelion5"id="wows1_4"/></li>
+								<li><img src="/assets/codelion_img/images/codelion6.png"alt="codelion6"title="codelion6"id="wows1_5"/></li>
+								<li><img src="/assets/codelion_img/images/codelion7.png"alt="codelion7"title="codelion7"id="wows1_6"/></li>
+								<li><img src="/assets/codelion_img/images/codelion8.png"alt="codelion8"title="codelion8"id="wows1_7"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion2.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion3.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion4.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion5.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion6.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion7.png" alt="" /></a>
+								<a href="#"><img src="/assets/codelion_img/tooltips/codelion8.png" alt="" /></a>
+							</div>
+						</div>						
+						<div class="ws_shadow"></div>
+					</div>												
+					<!--<a class="ajax thumbnail codelion" href="/work/UxandUI_codelion"></a>-->
 				</div>
+
+				<!--tntcrowd-->
 				<div class="work" style="width: 100%; float: none; margin: 0px;">
-					<h4 class="work-title"><a class="ajax"href="http://tntcrowd.com">tntcrowd.com</a></h4>    
-					<a class="ajax thumbnail tntcrowd" href="/work/UxandUI_tntcrowd"></a>					
+					<h4 class="work-title"><a class="ajax"href="http://tntcrowd.com">tntcrowd.com</a></h4>   
+					<!--tntcrowd_body-->
+					<div id="wowslider-container4">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd.png" alt="tntcrowd" title="tntcrowd" id="wows4_0"/></li>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd2.png" alt="tntcrowd2" title="tntcrowd2" id="wows4_1"/></li>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd3.png" alt="tntcrowd3" title="tntcrowd3" id="wows4_2"/></li>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd4.png" alt="tntcrowd4" title="tntcrowd4" id="wows4_3"/></li>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd5.png" alt="tntcrowd5" title="tntcrowd5" id="wows4_4"/></li>
+								<li><img src="/assets/tntcrowd_img/images/tntcrowd6.png" alt="tntcrowd6" title="tntcrowd6" id="wows4_5"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="tntcrowd"><img src="/assets/tntcrowd_img/tooltips/tntcrowd.png" alt="" /></a>
+								<a href="#" title="tntcrowd2"><img src="/assets/tntcrowd_img/tooltips/tntcrowd2.png" alt="" /></a>
+								<a href="#" title="tntcrowd3"><img src="/assets/tntcrowd_img/tooltips/tntcrowd3.png" alt="" /></a>
+								<a href="#" title="tntcrowd4"><img src="/assets/tntcrowd_img/tooltips/tntcrowd4.png" alt="" /></a>
+								<a href="#" title="tntcrowd5"><img src="/assets/tntcrowd_img/tooltips/tntcrowd5.png" alt="" /></a>
+								<a href="#" title="tntcrowd6"><img src="/assets/tntcrowd_img/tooltips/tntcrowd6.png" alt="" /></a>
+							</div>
+						</div>
+						<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
+						<div class="ws_shadow"></div>
+					</div> 
+					<!--<a class="ajax thumbnail tntcrowd" href="/work/UxandUI_tntcrowd"></a>-->					
 				</div>	
-
-				<div class="work" style="width: 100%; float: none; margin: 0px;"> 				
+				<!--calendar-->
+				<div class="work" style="width: 100%; float: none; margin: 0px;">
 					<h4 class="work-title"><a class="ajax">애니원트( Anywant )</a></h4>   
-					<a class="ajax thumbnail anywant"href="/work/UxandUI_anywant"></a>
+					<!--calendar_body--> 
+					<div id="wowslider-container3">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/calendar_img/images/calendar.png" alt="calendar" title="calendar" id="wows3_0"/></li>
+								<li><img src="/assets/calendar_img/images/calendar2.png" alt="calendar2" title="calendar2" id="wows3_1"/></li>
+								<li><img src="/assets/calendar_img/images/calendar3.png" alt="calendar3" title="calendar3" id="wows3_2"/></li>
+								<li><img src="/assets/calendar_img/images/calendar4.png" alt="calendar4" title="calendar4" id="wows3_3"/></li>
+								<li><img src="/assets/calendar_img/images/calendar5.png" alt="calendar5" title="calendar5" id="wows3_4"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="calendar"><img src="/assets/calendar_img/tooltips/calendar.png" alt="" /></a>
+								<a href="#" title="calendar2"><img src="/assets/calendar_img/tooltips/calendar2.png" alt="" /></a>
+								<a href="#" title="calendar3"><img src="/assets/calendar_img/tooltips/calendar3.png" alt="" /></a>
+								<a href="#" title="calendar4"><img src="/assets/calendar_img/tooltips/calendar4.png" alt="" /></a>
+								<a href="#" title="calendar5"><img src="/assets/calendar_img/tooltips/calendar5.png" alt="" /></a>
+							</div>
+						</div>
+						<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
+						<div class="ws_shadow"></div>
+					</div>
+					<!--<a class="ajax thumbnail anywant"href="/work/UxandUI_anywant"></a>-->
+					<!--<a class="ajax thumbnail calendar" href="/work/UxandUI_calendar"></a>-->
 				</div>
-
+				<!--snucheck-->
 				<div class="work"style="width: 100%; float: none; margin: 0px;">
-					<h4 class="work-title"><a class="ajax"  href="http://snucheck.com:3008">snucheck.com:3008</a></h4>    
-					<a class="ajax thumbnail snucheck"href="/work/UxandUI_snucheck">
+					<h4 class="work-title"><a class="ajax"  href="http://snucheck.com:3008">snucheck.com:3008</a></h4>
+					<!--snucheck_body-->
+					<div id="wowslider-container2">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/snucheck_img/images/snucheck.png" alt="snucheck" title="snucheck" id="wows2_0"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck2.png" alt="snucheck2" title="snucheck2" id="wows2_1"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck3.png" alt="snucheck3" title="snucheck3" id="wows2_2"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck4.png" alt="snucheck4" title="snucheck4" id="wows2_3"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck5.png" alt="snucheck5" title="snucheck5" id="wows2_4"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck6.png" alt="snucheck6" title="snucheck6" id="wows2_5"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck7.png" alt="snucheck7" title="snucheck7" id="wows2_6"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck8.png" alt="snucheck8" title="snucheck8" id="wows2_7"/></li>
+								<li><img src="/assets/snucheck_img/images/snucheck9.png" alt="snucheck9" title="snucheck9" id="wows2_8"/></li>
+								</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="snucheck"><img src="/assets/snucheck_img/tooltips/snucheck.png" alt="" /></a>
+								<a href="#" title="snucheck2"><img src="/assets/snucheck_img/tooltips/snucheck2.png" alt="" /></a>
+								<a href="#" title="snucheck3"><img src="/assets/snucheck_img/tooltips/snucheck3.png" alt="" /></a>
+								<a href="#" title="snucheck4"><img src="/assets/snucheck_img/tooltips/snucheck4.png" alt="" /></a>
+								<a href="#" title="snucheck5"><img src="/assets/snucheck_img/tooltips/snucheck5.png" alt="" /></a>
+								<a href="#" title="snucheck6"><img src="/assets/snucheck_img/tooltips/snucheck6.png" alt="" /></a>
+								<a href="#" title="snucheck7"><img src="/assets/snucheck_img/tooltips/snucheck7.png" alt="" /></a>
+								<a href="#" title="snucheck8"><img src="/assets/snucheck_img/tooltips/snucheck8.png" alt="" /></a>
+								<a href="#" title="snucheck9"><img src="/assets/snucheck_img/tooltips/snucheck9.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="ws_shadow"></div>
+					</div>    
+					<!--<a class="ajax thumbnail snucheck"href="/work/UxandUI_snucheck">-->
 					</a>		
 				</div>
+				<!--anywant-->
 				<div class="work"style="width: 100%; float: none; margin: 0px;" >
-					<h4 class="work-title"><a class="ajax" href="http://bgportfolio.co.kr">bgportfolio.co.kr</a></h4>    
-					<a class="ajax thumbnail bgportfolio" href="/work/UxandUI_bgportfolio"></a>
+					<h4 class="work-title"><a class="ajax" href="http://bgportfolio.co.kr">bgportfolio.co.kr</a></h4>
+					<!--anywant_body-->	
+					<div id="wowslider-container6">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/anywant_img/images/app1.png" alt="app1" title="app1" id="wows6_0"/></li>
+								<li><img src="/assets/anywant_img/images/app2.png" alt="app2" title="app2" id="wows6_1"/></li>
+								<li><img src="/assets/anywant_img/images/app3.png" alt="app3" title="app3" id="wows6_2"/></li>
+								<li><img src="/assets/anywant_img/images/app4.png" alt="app4" title="app4" id="wows6_3"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="app1"><img src="/assets/anywant_img/tooltips/app1.png" alt="" /></a>
+								<a href="#" title="app2"><img src="/assets/anywant_img/tooltips/app2.png" alt="" /></a>
+								<a href="#" title="app3"><img src="/assets/anywant_img/tooltips/app3.png" alt="" /></a>
+								<a href="#" title="app4"><img src="/assets/anywant_img/tooltips/app4.png" alt="" /></a>
+							</div>
+						</div>
+						<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
+						<div class="ws_shadow"></div>
+					</div>    
+					<!--<a class="ajax thumbnail bgportfolio" href="/work/UxandUI_bgportfolio"></a>-->
 				</div>
+				<!--snuwomanski-->
 				<div class="work"style="width: 100%; float: none; margin: 0px;" >
-					<h4 class="work-title"><a class="ajax">캘린더( Calendar )</a></h4>    
-					<a class="ajax thumbnail calendar" href="/work/UxandUI_calendar"></a>					
+					<h4 class="work-title"><a class="ajax" href="http://snuwomanski.co.kr">snuwomanski.co.kr</a></h4>
+					<!--snuwomanski-->
+					<div id="wowslider-container5">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/snuwomanski_img/images/snuwomanski.png" alt="snuwomanski" title="snuwomanski" id="wows5_0"/></li>
+								<li><img src="/assets/snuwomanski_img/images/snuwomanski2.png" alt="snuwomanski2" title="snuwomanski2" id="wows5_1"/></li>
+								<li><img src="/assets/snuwomanski_img/images/snuwomanski3.png" alt="snuwomanski3" title="snuwomanski3" id="wows5_2"/></li>
+								<li><img src="/assets/snuwomanski_img/images/snuwomanski4.png" alt="snuwomanski4" title="snuwomanski4" id="wows5_3"/></li>
+								<li><img src="/assets/snuwomanski_img/images/snuwomanski5.png" alt="snuwomanski5" title="snuwomanski5" id="wows5_4"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="snuwomanski"><img src="/assets/snuwomanski_img/tooltips/snuwomanski.png" alt="" /></a>
+								<a href="#" title="snuwomanski2"><img src="/assets/snuwomanski_img/tooltips/snuwomanski2.png" alt="" /></a>
+								<a href="#" title="snuwomanski3"><img src="/assets/snuwomanski_img/tooltips/snuwomanski3.png" alt="" /></a>
+								<a href="#" title="snuwomanski4"><img src="/assets/snuwomanski_img/tooltips/snuwomanski4.png" alt="" /></a>
+								<a href="#" title="snuwomanski5"><img src="/assets/snuwomanski_img/tooltips/snuwomanski5.png" alt="" /></a>
+							</div>
+						</div>
+						<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
+						<div class="ws_shadow"></div>
+					</div>    
+					<!--<a class="ajax thumbnail snuwomanski" href="/work/UxandUI_snuwomanski"></a>-->					
 				</div>
+				<!--snucheck_app-->
 				<div class="work"style="width: 100%; float: none; margin: 0px;" >
-					<h4 class="work-title"><a class="ajax" href="http://snuwomanski.co.kr">snuwomanski.co.kr</a></h4>    
-					<a class="ajax thumbnail snuwomanski" href="/work/UxandUI_snuwomanski"></a>					
+					<h4 class="work-title"><a class="ajax">캘린더( Calendar )</a></h4>
+					<!--snucheck_app_body-->
+					<div id="wowslider-container22">
+						<div class="ws_images">
+							<ul>
+								<li><img src="/assets/snucheck_app_img/images/app1.png" alt="app1" title="app1" id="wows22_0"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app2.png" alt="app2" title="app2" id="wows22_1"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app3.png" alt="app3" title="app3" id="wows22_2"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app4.png" alt="app4" title="app4" id="wows22_3"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app5.png" alt="app5" title="app5" id="wows22_4"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app6.png" alt="app6" title="app6" id="wows22_5"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app7.png" alt="app7" title="app7" id="wows22_6"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app8.png" alt="app8" title="app8" id="wows22_7"/></li>
+								<li><img src="/assets/snucheck_app_img/images/app9.png" alt="app9" title="app9" id="wows22_8"/></li>
+							</ul>
+						</div>
+						<div class="ws_thumbs">
+							<div>
+								<a href="#" title="app1"><img src="/assets/snucheck_app_img/tooltips/app1.png" alt="" /></a>
+								<a href="#" title="app2"><img src="/assets/snucheck_app_img/tooltips/app2.png" alt="" /></a>
+								<a href="#" title="app3"><img src="/assets/snucheck_app_img/tooltips/app3.png" alt="" /></a>
+								<a href="#" title="app4"><img src="/assets/snucheck_app_img/tooltips/app4.png" alt="" /></a>
+								<a href="#" title="app5"><img src="/assets/snucheck_app_img/tooltips/app5.png" alt="" /></a>
+								<a href="#" title="app6"><img src="/assets/snucheck_app_img/tooltips/app6.png" alt="" /></a>
+								<a href="#" title="app7"><img src="/assets/snucheck_app_img/tooltips/app7.png" alt="" /></a>
+								<a href="#" title="app8"><img src="/assets/snucheck_app_img/tooltips/app8.png" alt="" /></a>
+								<a href="#" title="app9"><img src="/assets/snucheck_app_img/tooltips/app9.png" alt="" /></a>
+							</div>
+						</div>
+						<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
+						<div class="ws_shadow"></div>
+					</div>    					
 				</div>
+
+				
+
+
 <!--		<div id="nro2" class="page-number" style="display: none;">2</div>-->
 		</div>
 
 		<div id="illustration" class="page clearfix active" >
 				<div class="work" style="width: 100%; float: none; margin: 0px;">    
 
-
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="/assets/uxandui/work/snucheck.png" alt="web-page1" title="web-page1" id="wows1_0"/></li>
-<li><img src="/assets/uxandui/work/snucheck2.png" alt="web-page2" title="web-page2" id="wows1_1"/></li>
-<li><img src="/assets/uxandui/work/snucheck3.png" alt="web-page3" title="web-page3" id="wows1_2"/></li>
-<li><img src="/assets/uxandui/work/snucheck4.png" alt="web-page4" title="web-page4" id="wows1_3"/></li>
-<li><img src="/assets/uxandui/work/snucheck5.png" alt="web-page5" title="web-page5" id="wows1_4"/></li>
-<li><img src="/assets/uxandui/work/snucheck6.png" alt="web-page6" title="web-page6" id="wows1_5"/></li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#wows1_0" title="web-page1"><img src="/assets/uxandui/brand/webpage1.png" alt="web-page1"/>1</a>
-<a href="#wows1_1" title="web-page2"><img src="/assets/uxandui/brand/webpage2.png" alt="web-page2"/>2</a>
-<a href="#wows1_2" title="web-page3"><img src="/assets/uxandui/brand/webpage3.png" alt="web-page3"/>3</a>
-<a href="#wows1_3" title="web-page4"><img src="/assets/uxandui/brand/webpage4.png" alt="web-page4"/>4</a>
-<a href="#wows1_4" title="web-page5"><img src="/assets/uxandui/brand/webpage5.png" alt="web-page5"/>5</a>
-<a href="#wows1_5" title="web-page6"><img src="/assets/uxandui/brand/webpage6.png" alt="web-page6"/>6</a>
-</div></div>
-<span class="wsl"><a href="http://wowslider.com">html slider</a> by WOWSlider.com v5.4m</span>
-	<div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="/assets/wowslider.js"></script>
-	<script type="text/javascript" src="/assets/script.js"></script>
-	 
 
 
 
@@ -192,3 +355,50 @@ $(window).scroll(function(event){
 		</div>						
 	
     </div>
+
+
+
+    
+    <!--uxandui_script-->
+
+    <!--codelion_js-->
+    <script type="text/javascript" src="/assets/codelion_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/codelion_js/script.js"></script>
+	<!--snucheck_js-->
+	<script type="text/javascript" src="/assets/snucheck_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/snucheck_js/script.js"></script>
+	<!--snucheck_app_js-->
+	<script type="text/javascript" src="/assets/snucheck_app_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/snucheck_app_js/script.js"></script>
+	<!--calendar-->
+	<script type="text/javascript" src="/assets/calendar_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/calendar_js/script.js"></script>
+	<!--tntcrowd-->
+	<script type="text/javascript" src="/assets/tntcrowd_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/tntcrowd_js/script.js"></script>
+	<!--snuwomanski-->
+	<script type="text/javascript" src="/assets/snuwomanski_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/snuwomanski_js/script.js"></script>
+	<!--anywant-->
+	<script type="text/javascript" src="/assets/anywant_js/wowslider.js"></script>
+	<script type="text/javascript" src="/assets/anywant_js/script.js"></script>
+
+
+
+
+	<!--고민되는 script-->
+
+<!--<script>
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){
+      $('#navigation').hide(500);
+   } else {
+      $('#navigation').show();
+   }
+   lastScrollTop = st;
+});
+</script>-->
+		<!--[if lte IE 7]><div id="disclaimer">This site is not yet compatible with older browsers.</div><![endif]-->
+		<!--<script type="text/javascript">$('body').hide();</script>-->
