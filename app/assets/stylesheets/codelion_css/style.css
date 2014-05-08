@@ -229,7 +229,7 @@
 	visibility:visible;
 }
 #wowslider-container1  .ws_thumbs { 
-    bottom: -15%;
+    bottom: -20%;
     left: 0;
 	width:100%;
 	max-height:$thumbFullHeight$px;
@@ -246,10 +246,11 @@
 	border-radius:2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
-	background-color: rgba(0, 0, 0, 0.2);
 	
 }
-
+#wowslider-container1 .ws_thumbs a.ws_selthumb{
+	background-color: rgba(0, 0, 0, 0.2);
+}
 #wowslider-container1 .ws_images ul{
 	animation: wsBasic 40s infinite;
 	-moz-animation: wsBasic 40s infinite;

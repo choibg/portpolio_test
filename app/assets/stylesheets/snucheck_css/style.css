@@ -229,7 +229,7 @@
 	visibility:visible;
 }
 #wowslider-container2  .ws_thumbs { 
-    bottom: -15%;
+    bottom: -20%;
     left: 0;
 	width:100%;
 	max-height:$thumbFullHeight$px;
@@ -239,14 +239,13 @@
 	letter-spacing:-4px;
 	width:80%;
 }#wowslider-container2 .ws_thumbs a.ws_selthumb{
-	background-color: rgba(118, 152, 193, 1);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 #wowslider-container2 .ws_thumbs  a{
 	border-radius:2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
-	background-color: rgba(0, 0, 0, 0.2);
 }
 
 #wowslider-container2 .ws_images ul{
