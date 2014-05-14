@@ -108,7 +108,8 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	margin-bottom:100px !important;
 	text-align:center !important;
 }
-
+.iphon{display: none;}
+	.desk{display:block;}
 
 @media screen and (max-width: 900px) {
 	#header { top: 0px; position: absolute;}
@@ -127,6 +128,7 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	.work-title { margin-top:0px; };
 	#content .page { padding-top:337px;}
 	#footer{ position: relative !important;}
+
 }
 /*.column { width: 42%; margin-left: 4%; margin-right: 4%; }*/
 @media screen and (max-width: 400px) {
@@ -134,6 +136,9 @@ iframe {position: relative; width: 900px; height: 503px; left: -300px;}
 	#modern-browsers .column { width: 90%; float: none;	margin-left: 5%; margin-right: 5%; }
 	#navigation .menu-item {float: left !important; width: 100% !important;}
 	#footer{ position: relative!important;}
+	li.favvvv{ display:none;}
+	.desk{display:none;}
+	.iphon{display: block;}
 }
 
 
@@ -327,3 +332,5 @@ a.bgportfolio{
 a.bgporfolio:hover{
 	background-image: image-url('/assets/uxandui/work/snucheck2.png');	
 }
+
+
